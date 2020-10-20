@@ -1,0 +1,132 @@
+.serie_selected{
+  overflow: hidden;
+}
+
+.serie_selected img.bg_img{
+  overflow: hidden;
+  padding: 0;
+  width: 100%;
+  position: absolute;
+  z-index: 0;
+  top: 0px;
+  bottom: 0;
+  left: 0;
+}
+
+#menu_serie{
+  display: block;
+  position: absolute;
+  background: rgba(0,0,0,0.6);
+  box-shadow: 0 0 30px 70px rgba(0,0,0,0.6);
+  top: 0;
+  left: 0;
+  width: 280px;
+  height: 100%;
+}
+
+#menu_serie ul{
+  position: absolute;
+  bottom: 30px;
+  left: 80px;
+  color: white;
+}
+
+#menu_serie span{
+  font-size: 30px;
+  margin: 0px 10px 0px 0px;
+  vertical-align: text-bottom !important;
+}
+
+#menu_serie ul li{
+  font-weight: inherit !important;
+  list-style: none;
+  font-size: 24px !important;
+  margin: 10px 0 10px -88px;
+  width: 270px !important;
+  padding: 5px 5px 5px 15px;
+}
+
+#menu_serie ul li:hover{
+  cursor: pointer;
+  border-radius: 7px;
+  background: white;
+  list-style: none;
+  font-size: 20px;
+  color: black;
+  font-weight: bold;
+  margin: 10px 0 10px -88px;
+  padding: 5px 5px 5px 15px;
+}
+
+#menu_serie h2{
+  font-size: 45px;
+  position: relative;
+  top: 100px;
+  width: max-content;
+  font-weight: bold;
+  left: 50px !important;
+  color: white;
+}
+
+#menu_serie h3{
+  position: relative;
+  top: 90px;
+  left: 50px;
+}
+
+/*MEDIA MOBILE*/
+@media (max-width: 1150px){
+  /*Estilo*/
+  .append_temp{
+    position: absolute;
+    width: 100vw;
+    height: 122px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+  }
+  
+  .append_temp a#box_temp{
+    display: inline-block;
+    white-space: nowrap;
+    margin-right: 10px;
+  }
+  
+  .col-3{
+    position: absolute;
+    left: 0;
+    padding: 0;
+    margin: 0 0 0 0;
+  }
+  
+  .col-9{
+    position: absolute;
+    left: 0;
+    top: 275px;
+    padding: 0;
+    margin: 0 0 0 0;
+  }
+  
+  .episodios{
+    left: 0;
+    width: 100vw;
+    height: 300px;
+    padding-bottom: 20px;
+  }
+  
+  #box_ep{
+    padding: 7px;
+  }
+  
+  #box_ep img{
+    display: none;
+  }
+  
+  #box_ep label#title{
+    font-size: 17px;
+  }
+  
+  #box_ep p{
+    font-size: 15px;
+  }
+}

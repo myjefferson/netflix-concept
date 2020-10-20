@@ -1,0 +1,143 @@
+.container{
+  margin: 90px auto;
+}
+
+.conteudos{
+  margin: 0 0 -70px 0;
+}	  
+
+.conteudos img{
+  max-width: 100%;
+  padding: .5em;
+  transition: 0.6s;
+}
+
+.box{
+  margin: 0px 14px 18px 0px;
+  background-image: none;
+  color: black;
+  font-size: 26px;
+  border-radius: 3px;
+  box-shadow: 2px 2px 6px rgba(0,0,0,0.2);
+}
+
+.box img:hover{
+  -webkit-transform: scale(1.07);
+  transform: scale(1.06);
+  transition: 0.4s;
+  border: 1.5px solid red;
+}
+
+.text-center{
+  text-align: center;
+}
+
+/*ESTILO MODIFICADO DOS BLOCOS*/
+.more-conteudos{
+  padding: 8px 20px 8px 20px;
+  border: 2px solid red;
+  border-radius: 6px;
+  color: white;
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: bold;
+  transition: 0.5s;
+  background: red;
+}
+
+.more-conteudos:hover{
+  transition: 0.5s;
+  text-decoration: none;
+  color: white;
+  background: none;
+}
+
+.center-btn{
+  text-align: center;
+  margin: 10px 0 50px 0;
+}
+
+.conteudos h3{
+  color: white;
+  font-size: 23px;
+  font-weight: bold;
+  margin: 15px 0 20px 0px;
+  padding: 0 0 0 6px;
+  border-left: 3px solid red;
+}
+
+.conteudos a{
+  display: inline-block;
+}
+
+#box_img img{
+  padding: 0;
+  width: 140px;
+  height: 200px;
+  border-radius: 4px;
+}
+
+/*PAGINAÇÃO*/
+body #paginas{
+  text-align: center;
+  width: 100%;
+  margin-bottom: 0px;
+}
+
+body #paginas a{
+  display: inline-block;
+  border: 2px solid red;
+  padding: 6px 15px 6px 15px;
+  margin: 10px;
+  font-size: 20px;
+  color: white;
+  border-radius: 100px;
+  text-decoration: none;
+}
+
+@media (max-width: 1150px){
+  /*ajust home_inicio*/
+  .home_inicio{
+    margin: 290px 0 50px 0 !important;
+  }
+  
+  /*show info filmes*/
+  .info_filme{
+    display: block !important;
+    visibility: visible !important;
+  }
+  
+  /*show carousel*/
+  .news-carousel{
+    display: block !important;
+  }
+  
+  /*ajust home_filmes and home_series*/
+  .cont_ajust{
+    margin: 55px 0 75px 0 !important;
+  }
+  
+  .container{
+    margin: 10px auto;
+  }
+  
+  .col-md-7{
+    background: #111;
+    padding: 0;
+    margin: 0;
+    max-width: 100% !important;
+    box-shadow: 0px -22px 40px 40px #111;
+  }
+   
+  .line_filmes, .line_series{
+    padding-left: 13px;
+    text-align: center;
+  }
+  
+  #box_img img{
+    padding: 0;
+    width: 110px;
+    height: 156px;
+    border-radius: 10px;
+  }
+}
