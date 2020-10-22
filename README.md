@@ -6,6 +6,19 @@
 O sistema tem como funcionalidade um conceito simples de um sistema alternativo da Netflix,</br>
 com funcionalidade para TV (Especialmente para LG Smart TV com controle Smart Magic), Web e Mobile.</p>
 
-<p>• Após o carregamento, a primeira visualização do sistema é a tela de <em>Inicio</em>, onde é apresentado os filmes no lado direito,</br>
-e no lado esquerdo é apresentado os principais filmes lançados.</p>
+<h3>Modelo TV e WEB</h3>
+<p>• Após o carregamento, a primeira visualização do sistema é a tela de <em>Inicio</em>, onde é apresentado</br>
+os filmes no lado direito, e no lado esquerdo é apresentado os principais filmes lançados.</p>
 <img src="https://raw.githubusercontent.com/myjefferson/NETFLIX-MyPersonalProject/main/assets/images/interface/t1.png">
+</br>
+
+<p>• Ao passar o cursor do mouse por um conteúdo, é possível ver as informações como: nome, classificação indicativa,</br>
+gênero, tipo de áudio, o ano em que o conteúdo foi lançado, uma breve sinopse e uma capa.</p>
+<img src="https://raw.githubusercontent.com/myjefferson/NETFLIX-MyPersonalProject/main/assets/images/interface/t6.png">
+</br>
+
+<h3>Modelo Mobile</h3>
+<p>• Este projeto tem o objetivo de adaptar o sistema em qualquer aparelho. E dessa forma, foi desenvolvido um modelo</br>
+de responsividade para dispositivos móveis.</p>
+<img src="https://raw.githubusercontent.com/myjefferson/NETFLIX-MyPersonalProject/main/assets/images/interface/t4.png">
+</br>
