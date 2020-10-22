@@ -17,8 +17,16 @@ gênero, tipo de áudio, o ano em que o conteúdo foi lançado, uma breve sinops
 <img src="https://raw.githubusercontent.com/myjefferson/NETFLIX-MyPersonalProject/main/assets/images/interface/t6.png">
 </br>
 
+<p>• A partir de quando uma série é selecionada, é apresenta informações básicas do filme no topo, e em baixo os controles</br>
+de reprodução da série, configuração de áudio e legenda, temporadas e adicionar à lista.</p>
+<img src="https://raw.githubusercontent.com/myjefferson/NETFLIX-MyPersonalProject/main/assets/images/interface/t3.png">
+</br>
+
 <h3>Modelo Mobile</h3>
 <p>• Este projeto tem o objetivo de adaptar o sistema em qualquer aparelho. E dessa forma, foi desenvolvido um modelo</br>
 de responsividade para dispositivos móveis.</p>
 <img src="https://raw.githubusercontent.com/myjefferson/NETFLIX-MyPersonalProject/main/assets/images/interface/t4.png">
 </br>
+
+</hr>
+<p>Apenas relembrando: <b>este projeto foi desenvolvido para fins de estudos em programação, design UX e UI.</b></br>
