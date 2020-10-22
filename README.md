@@ -17,8 +17,8 @@ gênero, tipo de áudio, o ano em que o conteúdo foi lançado, uma breve sinops
 <img src="https://raw.githubusercontent.com/myjefferson/NETFLIX-MyPersonalProject/main/assets/images/interface/t6.png">
 </br>
 
-<p>• A partir de quando uma série é selecionada, é apresenta informações básicas do filme no topo, e em baixo os controles</br>
-de reprodução da série, configuração de áudio e legenda, temporadas e adicionar à lista.</p>
+<p>• A partir de quando uma série é selecionada, é apresenta informações básicas do filme no topo, e em baixo os</br> 
+controles de reprodução da série, configuração de áudio e legenda, temporadas e adicionar à lista.</p>
 <img src="https://raw.githubusercontent.com/myjefferson/NETFLIX-MyPersonalProject/main/assets/images/interface/t3.png">
 </br>
 
