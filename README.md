@@ -2,7 +2,7 @@
 </hr>
 <h5>NETFLIX - My Personal Project</h5>
 
-<p><b>Este projeto foi desenvolvido para praticar estudos em programação, design UX e UI.</b></br>
+<p><b>Este projeto foi desenvolvido para fins de estudos em programação, design UX e UI.</b></br>
 O sistema tem como funcionalidade um conceito simples de um sistema alternativo da Netflix,</br>
 com funcionalidade para TV (Especialmente para LG Smart TV com controle Smart Magic), Web e Mobile.</p>
 
