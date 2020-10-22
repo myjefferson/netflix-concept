@@ -2,12 +2,12 @@
 </hr>
 <h5>NETFLIX - My Personal Project</h5>
 
-<p>Este projeto foi desenvolvido para praticar estudos em programação, design UX e UI.</br>
+<p><b>Este projeto foi desenvolvido para praticar estudos em programação, design UX e UI.</b></br>
 O sistema tem como funcionalidade um conceito simples de um sistema alternativo da Netflix,</br>
 com funcionalidade para TV (Especialmente para LG Smart TV com controle Smart Magic), Web e Mobile.</p>
 
 <h3>Modelo TV e WEB</h3>
-<p>• Após o carregamento, a primeira visualização do sistema é a tela de <em>Inicio</em>, onde é apresentado</br>
+<p>• Após o carregamento, a primeira visualização do sistema é a tela de <em><b>Inicio</b></em>, onde é apresentado</br>
 os filmes no lado direito, e no lado esquerdo é apresentado os principais filmes lançados.</p>
 <img src="https://raw.githubusercontent.com/myjefferson/NETFLIX-MyPersonalProject/main/assets/images/interface/t1.png">
 </br>
