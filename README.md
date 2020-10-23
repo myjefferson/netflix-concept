@@ -4,7 +4,7 @@
 
 <p><b>Este projeto foi desenvolvido para fins de estudos em programação, design UX e UI.</b></br>
 O sistema tem como funcionalidade um conceito simples de um sistema alternativo da Netflix,</br>
-voltado para TV (Especialmente para LG Smart TV (WEB OS) com controle Smart Magic), Web e Mobile.</p>
+voltado para TV (Especialmente para LG Smart TV (WEB OS) com controle Magic Remote), Web e Mobile.</p>
 
 <h3>Modelo TV e WEB</h3>
 <p>• Após o carregamento, a primeira visualização do sistema é a tela de <em><b>Inicio</b></em>, onde é apresentado</br>
