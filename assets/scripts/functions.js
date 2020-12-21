@@ -1,11 +1,11 @@
 //btn_mais_series
 function more_series(){
-    load_page("home_series.php").fadeIn();
+    load_page("home_series.html");
 }
 
 //btn_mais_filmes
 function more_filmes(){
-    load_page("home_filmes.html").fadeIn();
+    load_page("home_filmes.html");
 }
 
 //Hover Info
