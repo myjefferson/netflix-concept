@@ -1,4 +1,5 @@
-<h1>NETFLIX - Meu Projeto Pessoal</h1>
+<h1 align="center">NETFLIX - Meu Projeto Pessoal</h1>
+<a href="https://myjefferson.github.io/NETFLIX-MyPersonalProject/" target="" align center="">Ver site</a>
 </hr>
 <h5>NETFLIX - My Personal Project</h5>
 
