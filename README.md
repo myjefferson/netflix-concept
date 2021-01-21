@@ -1,6 +1,6 @@
 <h1 align="center">NETFLIX - Meu Projeto Pessoal</h1>
 
-<p align="center"><a href="https://myjefferson.github.io/NETFLIX-MyPersonalProject/" target="_blank"><img src="assets/images/interface/btn_site.png" width="185px"></a></p>
+<p align="center"><a href="https://myjefferson.github.io/NETFLIX-MyPersonalProject/" target="_blank"><img src="assets/images/interface/btn_site.png" width="190px"></a></p>
 
 </hr>
 <h5>
