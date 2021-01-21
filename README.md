@@ -8,7 +8,8 @@ NETFLIX - My Personal Project</br>
 This project was developed for the purposes of studies in programming, UX and UI design
 </h5>
 
-<p align="justfy"><b>Este projeto foi desenvolvido para fins de estudos em programação, design UX e UI.</b> O sistema tem como funcionalidade um conceito simples de um sistema alternativo da Netflix,</br> Web e Mobile.</p>
+<p align="justfy"><b>Este projeto foi desenvolvido para fins de estudos em programação, design UX e UI.
+</b> O sistema tem como funcionalidade um conceito simples de um sistema alternativo da Netflix, Web e Mobile.</p>
 
 <h3>Modelo TV e WEB</h3>
 <p>• Após o carregamento, a primeira visualização do sistema é a tela de <em><b>Inicio</b></em>, onde é apresentado</br>
