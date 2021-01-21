@@ -1,13 +1,16 @@
 <h1 align="center">NETFLIX - Meu Projeto Pessoal</h1>
 
-<p align="center"><a href="https://myjefferson.github.io/NETFLIX-MyPersonalProject/" target="_blank"><img src="assets/images/interface/btn_site.png" width="180px"></a></p>
+<p align="center"><a href="https://myjefferson.github.io/NETFLIX-MyPersonalProject/" target="_blank"><img src="assets/images/interface/btn_site.png" width="185px"></a></p>
 
 </hr>
-<h5>NETFLIX - My Personal Project</h5>
+<h5>
+NETFLIX - My Personal Project</br>
+This project was developed for the purposes of studies in programming, UX and UI design
+</h5>
 
 <p><b>Este projeto foi desenvolvido para fins de estudos em programação, design UX e UI.</b></br>
 O sistema tem como funcionalidade um conceito simples de um sistema alternativo da Netflix,</br>
-voltado para TV (Especialmente para LG Smart TV (WEB OS) com controle Magic Remote), Web e Mobile.</p>
+Web e Mobile.</p>
 
 <h3>Modelo TV e WEB</h3>
 <p>• Após o carregamento, a primeira visualização do sistema é a tela de <em><b>Inicio</b></em>, onde é apresentado</br>
