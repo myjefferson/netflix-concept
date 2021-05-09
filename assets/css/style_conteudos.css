@@ -101,7 +101,7 @@ body #paginas a{
 @media (max-width: 1150px){
   /*ajust home_inicio*/
   .home_inicio{
-    margin: 290px 0 50px 0 !important;
+    margin: 42% 0 50px 0 !important;
   }
   
   /*show info filmes*/
