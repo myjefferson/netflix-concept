@@ -72,9 +72,9 @@ body{
 
 /*MODAL SOBRE*/
 .sobre .modal-content{
-  background: rgba(0,0,0,0.7);
+  background: rgba(0,0,0,0.5);
   height: 100%;
-  backdrop-filter: blur(40px);
+  backdrop-filter: blur(25px);
 }
 
 .sobre .close{
@@ -124,9 +124,10 @@ body{
 
 /*ESTILO CAROUSEL*/
 .news-carousel{
+  margin-left: 20%;
   display: block;
   height: 100% !important;
-  width: 100% !important;
+  max-width: 30vw !important;
 }
 
 .carousel .img_mobile{
