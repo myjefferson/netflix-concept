@@ -381,14 +381,16 @@ div#controls a span{
   
   /*NAV*/
   .nav{
-    position: fixed;
-    top: auto;
-    bottom: 0;
+    position: fixed !important;
+    top: unset !important;
+    height: 70px;
+    padding: 5px 0 0 0;
+    bottom: 0 !important;
     background: #222 !important;
   }
   
   .nav ul{
-    margin: -5px 0 0 0 !important;
+    margin: 0 0 0 0 !important;
     width: 100%;
     display: grid !important;
     grid-template-columns:30% 30% 30% !important;

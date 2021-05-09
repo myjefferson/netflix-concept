@@ -117,7 +117,7 @@ body #paginas a{
   
   /*ajust home_filmes and home_series*/
   .cont_ajust{
-    margin: 55px 0 75px 0 !important;
+    margin: -20px 0 75px 0 !important;
   }
   
   .container{
