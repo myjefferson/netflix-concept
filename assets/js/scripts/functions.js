@@ -1,3 +1,6 @@
+//init
+info('Power', '16', 'Um ex-soldado, uma adolescente e um policial varrem New Orleans em busca de uma pílula perigosa que desperta superpoderes temporários.','Dublado', '2020', 'assets/images/movies-capa/power_bg.jpg', 'AÇÃO');
+
 //btn_mais_series
 function more_series(){
     load_page("home_series.html");

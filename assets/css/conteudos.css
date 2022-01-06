@@ -1,4 +1,6 @@
 .conteudos{
+  position: relative;
+  z-index: 1;
   margin: 75px 0 -70px 0;
 }	  
 

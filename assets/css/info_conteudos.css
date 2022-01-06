@@ -38,15 +38,16 @@
 }
 
 .information-content #capa{
-    top: 0;
+    overflow: hidden;
+    top: 50px;
     position: absolute;
-    height: 450px;
+    height: 400px;
     z-index: -2;
     width: max-content;
     object-fit: cover;
     object-position: center;
     overflow: hidden;
-    -webkit-mask-image:-webkit-radial-gradient(circle, from(rgba(0,0,0,1)), to(rgba(0,0,0,0)));
+    -webkit-mask-image: radial-gradient(circle at 45% 30%, rgba(0,0,0,1) 10%, rgba(0,0,0,0) 60%);
     mask-image: radial-gradient(circle at 50%, rgba(0,0,0,1) 20%, rgba(0,0,0,0) 70%);
 }
   
