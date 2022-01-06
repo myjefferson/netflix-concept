@@ -1,0 +1,98 @@
+/*INFORMAÇÃO DO FILME*/
+.clas_gen_ano{
+    margin-left: 32px;
+    display: block;
+}
+  
+.information{
+    height: 100vh;
+    position: relative;
+}
+  
+.information .information-content{
+    position: fixed;
+    height: 100%;
+    color: #FFF;
+    display: flex;
+    align-items: end;
+}
+  
+.information-content #nome, .information-content #ano, .information-content #desc, .information-content #idade, .information-content #idioma, .information-content #genero{
+    transition: 0.5s;
+    z-index: 5;
+    position: relative;
+}
+  
+.information-content h1{
+    font-size: 40px;
+    font-weight: bold;
+    margin: 1px 0 15px 0;
+}
+  
+.information-content #idade{
+    float: left;
+    margin: 0px 13px 10px 0px;
+    width: 44.5px;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+.information-content #capa{
+    top: 0;
+    position: absolute;
+    height: 450px;
+    z-index: -2;
+    width: max-content;
+    object-fit: cover;
+    object-position: center;
+    overflow: hidden;
+    -webkit-mask-image:-webkit-radial-gradient(circle, from(rgba(0,0,0,1)), to(rgba(0,0,0,0)));
+    mask-image: radial-gradient(circle at 50%, rgba(0,0,0,1) 20%, rgba(0,0,0,0) 70%);
+}
+  
+.information-content #genero{
+    float: left;
+    font-size: 18px;
+    color: #ddd;
+    margin-right: 10px;
+    background: #303030;
+    padding: 10px;
+    border-radius: 6px;
+    text-transform: uppercase;
+}
+  
+.information-content ul #border{
+    float: left;
+    position: relative;
+    z-index: 4;
+    margin: -0.5px 15px 14px 3px;
+    border-radius: 6px;
+    border: 2px solid  #404040; 
+    width: max-content;
+    padding: 6.5px 15px 7px 15px;
+}
+  
+.information-content li{
+    font-size: 20px;
+    display: inline-block;
+}
+  
+.information-content #idioma{
+    border-right: 1px solid white;
+    padding: 0 10px 0 0;
+}
+  
+.information-content #ano{
+    padding: 0 0 0 6.5px;
+}
+  
+.information-content #desc{
+    display: block;
+    clear: both;
+    max-width: 500px;
+    text-align: justify;
+    font-size: 18px;
+    color: #ccc;
+    height: 100px;
+    margin: 0 0 13px 32px;
+}

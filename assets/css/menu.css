@@ -1,0 +1,309 @@
+body{
+  overflow-x: hidden !important;
+  padding: 0;
+  margin: 0;
+  background: #0A0A0A;
+}
+
+* a{
+  text-decoration: none;
+}
+
+/*Menu de navegação*/
+.under{
+  border-bottom: 2px solid red !important;
+}
+
+.nav{
+  position: fixed;
+  padding: 10px 0 12px 0;
+  color: white;
+  width: 100%;
+  z-index: 10;
+  top: 0;
+  left: 0;
+  transition: 0.5s;
+  background: rgba(0,0,0,.90);
+  backdrop-filter: blur(6px);
+}
+
+#logo{
+  z-index: 100;
+  width: 150px;
+  float: left;
+  margin: 4px 0 0 20px;
+  cursor: pointer;
+}
+
+.nav ul{
+  margin: 0;
+  padding: 0;
+}
+
+.nav ul li{
+  display: inline-block;
+  padding: 0;
+  margin: 9px 30px 0 0;
+  font-size: 17px; 
+  cursor: pointer;
+}
+
+.nav ul li button{
+  background:  none;
+  border: none;
+  color: white;
+  padding: 0;
+  cursor: pointer;
+}
+
+.nav ul li button:hover{
+  text-decoration: none;
+  color: red;
+}
+
+div#controls button span{
+  font-size: 30px;
+  vertical-align: text-bottom;
+  color: white;
+}
+
+
+#bg-image-content{
+  top: 0;
+  left: 0;
+  position: fixed;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  -webkit-opacity: 18%;
+  opacity: 18%;
+  -webkit-filter: blur(10px);
+  filter: blur(10px);
+}
+
+/*Loadnig Style*/
+#loading{
+  position: fixed;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  z-index: 1000;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: black;
+}
+
+#loading .logo-loading{
+  transition: 0.5s;
+  margin: -100px 0 0 0;
+  width: 400px;
+}
+
+#loading .anima-loading{
+  position: absolute;
+  margin-top: 190px;
+  width: 80px;
+}
+
+#sobre{
+  margin-top: -7.4px;
+}
+
+#sobre button{
+  background:  none;
+  opacity: 65%;
+  color: #FFF;
+  font-weight: bold;
+  font-size: 17px;
+  margin-left: 10px;
+  border: 2px solid red;
+  padding: 0px 10px 0px 10px;
+  border-radius: 100px;
+}
+
+#sobre button:hover{
+  opacity: 100%;
+  background: red;
+}
+
+/*STYLE MODAIS*/
+/*modal about*/
+.close{
+  margin: 10px 5px 0 0;
+  background: none;
+  border-radius: 8px;
+  border: 2px solid red;
+  width: 50px;
+  padding: 0px 15px 5px 12px;
+  transition: 0.4s;
+}
+
+.close:hover{
+  background: red;
+  transition: 0.2s;
+}
+
+.close span{
+  padding: 0px;
+  font-size: 30px;
+  color: white;
+}
+
+.sobre{
+  background: rgba(0,0,0,0.80);
+  backdrop-filter: blur(10px);
+}
+
+.sobre .modal-content{
+  background: none;
+}
+
+.sobre #img{
+  text-align: center;
+}
+
+.sobre img{
+  width: 300px;
+  margin: 11% 0 0 0;
+}
+
+.sobre p#version{
+  font-size: 20px;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  border-bottom: 1px solid white;
+  margin: 20px 500px 30px 500px;
+  padding: 0 0 30px 0;
+}
+
+.sobre p{
+  text-align: center;
+  color: white;
+  margin: 0;
+  font-size: 19px;
+}
+
+.sobre .modal-content a{
+  color: red;
+  font-weight: bold;
+}
+
+/*ESTILO CAROUSEL*/
+.news-carousel{
+  margin-left: 20%;
+  display: block;
+  height: 100% !important;
+  max-width: 30vw !important;
+}
+
+.carousel .img_mobile{
+  display: none !important;
+}
+
+.modal h5{
+  color: white;
+}
+
+/*MODAL VIEW CONTENT*/
+.modal-header{
+  height: 65px;
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  background: rgba(0,0,0,0.5);
+  backdrop-filter: blur(25px);
+  z-index: 1;
+  background: linear-gradient(to right,rgba(0,0,0,0) 30%, rgba(0,0,0,0.94) 60%);
+  border: 0;
+  box-shadow: 0 0 20px 20px rgba(0,0,0,0.9);
+}
+
+.modal_video .modal-content{
+  background: black !important;
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  width: 100vw;
+  height: 100vh;
+  padding: 0;
+}
+
+.modal_video iframe{
+  border: 0;
+  left: 0;
+  position: absolute;
+}
+
+.modal_video .modal-header{
+  position: static;
+  left: 0;
+  width: 100%;
+}
+
+.modal .modal-lg{
+  background: none;
+  padding: 0;
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+}
+
+.modal-backdrop{
+  background: none;
+  width: 100vw;
+  height: 100vh;
+}
+
+/*MEDIA MOBILE*/
+@media (max-width: 1084px){  
+  .nav{
+    top: auto;
+    bottom: 0;
+  }
+  
+  .nav #logo_sobre{
+    padding: 10px 0 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: rgba(0,0,0,.90);
+    backdrop-filter: blur(6px);
+  }
+  
+  .nav #logo_sobre #sobre{
+    margin: -13px 0 0 0;
+  }
+  
+  .nav #logo_sobre #sobre a{
+    font-size: 15px;
+  }
+  
+  .nav #logo{
+    width: 110px;
+    position: relative;
+  }
+  
+  .nav .area-menu{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 653px){ 
+  #loading .logo-loading{
+    margin: -15px 0 0 0;
+    width: 280px;
+  }
+
+  #loading .anima-loading{
+    width: 70px;
+  }
+}
